@@ -30,7 +30,7 @@
 <body>
 <main  class="max-w-screen-xl mx-auto px-4 lg:px-16 lg:px-28 my-10  ">  
     <!-- header    -->
-<header class="sm:flex "  > 
+<header class="grid lg:grid-cols-2 grid-cols-1 "  > 
 
 <div class=" p-4">
    <h2 class=" leading-tight text-[#1C1C1C] font-extrabold text-5xl">It's good <br> 
@@ -38,10 +38,10 @@
     <p class=" my-10 text-[#777777] text-xs">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
     <button class="flex mx-auto items-center gap-2 bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-lg p-2"> Explore More <img  src="images/arrow.png" alt=""></button>
 </div>
-<div class=" relative w-auto sm:w-[45%] ">
+<div class=" relative w-auto  ">
 <div> <img class="w-full h-auto" src="images/banner.png" alt="">
 </div>
-<div class=" bg-white absolute top-64 left-32 sm:top-72 sm:left-36 rounded-md flex items-center gap-2  shadow-2xl shadow-[#706d6d] p-2 ">
+<div class=" bg-white absolute  left-[24%] top-[75%] sm:left-[35%] sm:top-[80%]  rounded-md flex items-center gap-2  shadow-2xl shadow-[#706d6d] p-2 ">
     <i class="fa-solid fa-star w-5 h-auto text-[#FFC850]"></i>
 <span>    <h2 class="text-[#1C1C1C] font-extrabold text-2xl">5.00</h2>
     <p class="text-[#777777] text-xs">Trust Pilot Ratings</p></span>
@@ -104,7 +104,7 @@
 
 <!-- section-3 -->
  <section class=" items-center bg-gradient-to-r from-orange-500 to-red-500 rounded-xl grid grid-cols-1 sm:grid-cols-2 text-[20px] p-4">
-<div class="sm:w-3/4 mx-auto" >
+<div class="sm:w-3/4  mx-auto" >
     <h2 class=" text-white text-3xl font-bold">Meet Our Super Clients</h2>
     <p class=" text-white text-xs my-3">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
     <button class="flex mx-auto items-center gap-2 text-red-500 font-bold bg-white border border-emerald-50 px-5 rounded-lg p-2"> Show All </button>
@@ -112,7 +112,7 @@
 </div>
 <div class="relative  py-24">
     <!-- middle card -->
- <div class="  absolute h-60 bg-white w-3/4 top-64 z-10 md:3/5 text-black rounded-lg flex items-center px-5 py-10" >
+ <div class="  absolute  bg-white w-3/4 top-64 z-10 md:3/5 text-black rounded-lg flex items-center px-5 py-10" >
     <div class="absolute -top-5  -left-5 rounded-full">
              <img class="p-2" src="images/client.png " alt="">
     </div>
@@ -123,7 +123,7 @@
     </div>
  </div>
 <!-- top card -->
- <div class=" opacity-40 relative h-60 bg-white w-3/4 sm:left-32 left-20 md:3/5 text-black rounded-lg flex items-center px-5 py-10" >
+ <div class=" opacity-40 relative  bg-white w-3/4 sm:left-32 left-20 md:3/5 text-black rounded-lg flex items-center px-5 py-10" >
     <div class="absolute -top-5  -left-5 rounded-full">
              <img class="p-2" src="images/client.png " alt="">
     </div>
@@ -135,7 +135,7 @@
  </div>
 
 <!-- bottom card -->
- <div class=" top-10 opacity-40 relative h-60 bg-white w-3/4 sm:left-32 left-20 md:3/5 text-black rounded-lg flex items-center px-5 py-10" >
+ <div class=" top-10 opacity-40 relative  bg-white w-3/4 sm:left-32 left-20 md:3/5 text-black rounded-lg flex items-center px-5 py-10" >
     <div class="absolute -top-5  -left-5 rounded-full">
              <img class="p-2" src="images/client.png " alt="">
     </div>
@@ -181,15 +181,56 @@
          <h3 class="text-center text-xl font-bold">News & Events</h3>
          <p class="text-center text-sm text-[#777777]" >There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
          <h2 class="text-left text-lg font-bold">Learn More</h2>
-         </div>
-
-         
-         
-    </div>
-    
-         
-    </section>
+         </div>       
+    </div>   
+    </section>   
 </main>
-    
+<!-- footer -->
+    <footer class="max-w-screen-xl text-[#494949] mx-auto sm:px-4  lg:px-16 lg:px-28 my-10 bg-gradient-to-l from-[#FFE6E6] to-[#FFF2EA] ">
+<div class=" flex sm:flex-row flex-col justify-between gap-5">
+     <img class="w-[50px] sm:w-[50px] m-auto" src="images/cup.png" alt="">
+     <span class="flex lg:gap-3 sm:flex-row flex-col justify-between gap-5  justify-center items-center "><p>Ready to get strated?</p>
+        <button class="flex text-white mx-auto items-center  bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-lg p-2"> Get Started </button>
+    </span>
+</div>
+<div class="grid  p-2 lg:grid-cols-4 grid-cols-2 mx-auto gap-y-10 py-10 my-10">
+        <div>
+            <h2 class="font-bold text-2xl  text-black">Quick Links</h2>
+            <ul class="my-4  font-semibold text-sm ">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Insurance</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="font-bold text-2xl  text-black">Our Service</h2>
+            <ul class="my-4  font-semibold text-sm ">
+                <li>Life Insurance</li>
+                <li>Car Insurance</li>
+                <li>Health Insurance</li>
+                <li>House Insurance</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="  font-bold text-2xl  text-black">Help</h2>
+            <ul class=" my-4 font-semibold text-sm ">
+                <li>FAQs</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div>
+            <h2 class="font-bold text-2xl  text-black">Subscribe to our newsletter</h2>
+              <div class="flex justify-between my-4 border-b py-4 border-black"><p>Email address</p><span><i class=" text-orange-500 fa-solid fa-arrow-right"></i> </span></div>
+              <div class="flex items-center mx-auto  gap-5">
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-twitter"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+            </div>
+            </div>
+
+</div>
+
+    </footer>
 </body>
 </html>
