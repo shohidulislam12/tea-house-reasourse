@@ -36,7 +36,7 @@
    <h2 class=" leading-tight text-[#1C1C1C] font-extrabold text-5xl">It's good <br> 
     tea time at The <br> Tea House</h2>
     <p class=" my-10 text-[#777777] text-xs">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
-    <button class="flex mx-auto items-center gap-2 bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-lg p-2"> Explore More <img  src="images/arrow.png" alt=""></button>
+    <button onclick="welcome()" class="flex mx-auto items-center gap-2 bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-lg p-2"> Explore More <img  src="images/arrow.png" alt=""></button>
 </div>
 <div class=" relative w-auto  ">
 <div> <img class="w-full h-auto" src="images/banner.png" alt="">
@@ -190,7 +190,7 @@
 <div class=" flex sm:flex-row flex-col justify-between gap-5">
      <img class="w-[50px] sm:w-[50px] m-auto" src="images/cup.png" alt="">
      <span class="flex lg:gap-3 sm:flex-row flex-col justify-between gap-5  justify-center items-center "><p>Ready to get strated?</p>
-        <button class="flex text-white mx-auto items-center  bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-lg p-2"> Get Started </button>
+        <button onclick="welcome()" class="flex text-white mx-auto items-center  bg-gradient-to-l from-[#FF0000] to-[#FF8938] rounded-lg p-2"> Get Started </button>
     </span>
 </div>
 <div class="grid  p-2 lg:grid-cols-4 grid-cols-2 mx-auto gap-y-10 py-10 my-10">
@@ -232,5 +232,17 @@
 </div>
 
     </footer>
+    <!-- basic javascript -->
+    <script>
+function welcome(){
+  alert("code:SUMMER15");
+  alert("code:Did you get the code ");
+  alert("code:yes");
+  prompt("please tell age ")
+  var name = prompt("please tell your name ")
+  alert("hellow " + name );
+  console.log("your name is " +name )
+}
+    </script>
 </body>
 </html>
